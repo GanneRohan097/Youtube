@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Youtubes</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+        }
+        
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        
+        .logo {
+            width: 150px;
+            background-color: white;
+            padding: 2px;
+            margin-right: 20px;
+        }
+        
+        .search-bar {
+             flex: 1;
+            background-color: black;
+            border: 1px solid white;
+            color: white;
+            border-radius: 25px;
+            padding-left: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            font-size: 18px;
+            margin-right: 10px;
+        }
+        
+        .mic {
+            background-color: black;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .mic img {
+            width: 38px;
+        }
+        
+        .mic:hover {
+            opacity: 0.6;
+        }
+        
+        .videos {
+            display: flex;
+            
+            gap: 50px;
+            margin-top: 0px;
+            margin-left: 150px;
+        }
+        
+        .video-card {
+            width: 350px;
+            color: white;
+            margin-right: 5px;
+        
+        }
+        
+        .video-card img {
+            width: 100%;
+            cursor: pointer;
+        }
+        
+        .video-card img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+        
+        .channel {
+            display: flex;
+            align-items: center;
+            margin-top: 5px;
+        }
+        
+        .channel img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+        
+        .info {
+            font-weight: bold;
+        }
+        
+        .stats, .name {
+            color: #aaa;
+        }
+        
+        .menu{
+            display: flex;
+            margin-top: 20px;
+        }
+        .home:hover{
+             opacity: 40%;
+             transition: opacity 0.5s;
+        }
+        .SHORTS{
+            margin-left: 60px;
+        }
+        .SHORTS:hover{
+             opacity: 40%;
+             transition: opacity 0.5s;
+        }
+        .you{
+            margin-left: 60px;
+        }
+        .you:hover{
+             opacity: 40%;
+             transition: opacity 0.5s;
+        }
+        .sub{
+            margin-left: 60px;
+        }
+        .sub:hover{
+             opacity: 40%;
+             transition: opacity 0.5s;
+        }
+        .two{
+            margin-left: 150px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="https://www.youtube.com/" target="_blank">
+        <img class="logo" src="Yt logo.png" alt="YouTube Logo">
+        </a>
+        <input class="search-bar" type="text" placeholder="Search...">
+        <button class="mic">
+            <img src="mic.jpg" alt="Mic">
+        </button>
+    </div>
+    <div class="menu">
+        <a href="https://www.youtube.com/" target="_blank">
+        <img class="home" src="home.png">
+        </a>
+        <div class="SHORTS">
+            <a href="https://www.youtube.com/shorts/HtNYW-9NcLA" target="_blank">
+            <img src="SHORTS.png">
+        </a>
+        </div>
+        <div class="you">
+            <a href="https://www.youtube.com/feed/you" target="_blank">
+                <img src="you.png" alt="">
+            </a>
+        </div>
+        <div class="sub">
+            <a href="https://www.youtube.com/feed/subscriptions">
+                <img src="subs.png" alt="">
+            </a>
+
+        </div>
+        
+        
+    </div>
+    
+    
+    
+    <div class="videos">
+        
+        
+        <div class="video-card">
+            <a href="https://youtu.be/_to6mb9rZMc?si=Up4eV46aCwGY2LM7">
+                <img src="v1.webp" alt="Video 1">
+            </a>
+            <div class="channel">
+                <img src="c1.jpg" alt="Channel 1">
+                <div>
+                    <p class="info">How To Overcome Laziness And Become Disciplined | Buddhist</p>
+                    <p class="name">Words of wisdom</p>
+                    <p class="stats">282k views · 3 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://youtu.be/LX5lOxweE5Q?si=KzBYBfbLdNHgFqcc">
+                <img src="v2.webp" alt="Video 2">
+            </a>
+            <div class="channel">
+                <img src="c2.jpg" alt="Channel 2">
+                <div>
+                    <p class="info">Kill Procrastination Forever in 7 Mins 🔥</p>
+                    <p class="name">Tharun Speaks</p>
+                    <p class="stats">150k views · 9 days ago</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+<div class="two">
+    <div class="video-card">
+        <a href="https://youtu.be/HxvEFoigQRU?si=clhtR42a_DwNetMB">
+            <img src="v3.webp" alt="Video 1">
+        </a>
+        <div class="channel">
+            <img src="c3.jpg" alt="Channel 1">
+            <div>
+                <p class="info">Watch this Before Buying Laptop for College || Best Laptop to Buy for Student 2024</p>
+                <p class="name">Study With Swaroop</p>
+                <p class="stats">220k views · 7 months ago</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
